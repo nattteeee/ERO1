@@ -3,7 +3,7 @@ import osmnx as ox
 
 
 # download/model a street network for some city then visualize it
-G = ox.graph_from_place("Ville-Marie ,Montreal, CANADA", network_type="drive")
+G = ox.graph_from_place("Ghetto McGill ,Montreal, CANADA", network_type="drive")
 
 def from_graph_to_matrix(G):
     l = len(G.degree)
