@@ -160,4 +160,6 @@ def Chinese_Postman(graph):
     chinese_dis = added_dis + sum_edges(graph)
     return chinese_dis
 
+res, duo = from_graph_to_matrix(G)
 
+print(Chinese_Postman(res))
